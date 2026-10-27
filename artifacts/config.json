@@ -1,0 +1,10 @@
+{
+  "NUM_SAMPLES": 75000,
+  "MAX_LENGTH": 256,
+  "DMODEL": 512,
+  "NUM_HEADS": 8,
+  "FF_DIM": 2048,
+  "NUM_LAYERS": 4,
+  "DROPOUT": 0.1,
+  "PAD_LABEL": -100
+}
