@@ -189,7 +189,7 @@ def load_all():
     except Exception:
         # Fallback: rebuild the architecture and load only the weights
         model = build_model()
-        model.load_weights(MODEL_PATH)
+        model.load_weights(MODEL_PATH, skip_mismatch=True)
     return tokenizer, model
 
 
